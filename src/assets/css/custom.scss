@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+$font-family-sans-serif: "Ubuntu", system-ui, -apple-system, "Roboto";
+
+$custom-colors: (
+  "sky": #0369a1,
+  "custom-gray": #f7f7f7,
+  "dark-gray": #242424,
+);
+
+ul.navbar-nav {
+  li.nav-item {
+    a.nav-link {
+      color: #0369a1;
+
+      &:hover {
+        color: #0c4a6e;
+      }
+    }
+  }
+}
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$theme-colors: map-merge($custom-colors, $theme-colors);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
