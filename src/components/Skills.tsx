@@ -15,9 +15,14 @@ import {
 
 function Skills() {
   return (
-    <section className="container-md py-3 py-md-5">
-      <h2 className="fw-bold text-start text-sky mb-3">Skills</h2>
-      <div className="d-flex flex-wrap align-items-center gap-3">
+    <section className="container-md py-3 py-md-5" id="skills">
+      <h2 data-aos="fade-up" className="fw-bold text-start text-sky mb-3">
+        Skills
+      </h2>
+      <div
+        data-aos="fade-up"
+        className="d-flex flex-wrap align-items-center gap-3"
+      >
         <a>
           <FontAwesomeIcon
             icon={faHtml5}

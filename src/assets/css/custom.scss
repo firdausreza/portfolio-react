@@ -20,6 +20,18 @@ ul.navbar-nav {
   }
 }
 
+div.card {
+  div.card-body {
+    a.card-subtitle {
+      color: #0369a1;
+
+      &:hover {
+        color: #0c4a6e;
+      }
+    }
+  }
+}
+
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 

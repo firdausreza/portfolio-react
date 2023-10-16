@@ -18,6 +18,15 @@ function Navbar() {
     }
   };
 
+  const scrollIntoView = (elementId: string) => {
+    const element = document.getElementById(elementId);
+
+    if (element)
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+  };
+
   return (
     <nav className="navbar navbar-expand-md navbar-light">
       <div className="container-md">
@@ -48,23 +57,30 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="mainNavbar">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-medium">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#about"
+                onClick={() => scrollIntoView("#about")}
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#experiences"
+                onClick={() => scrollIntoView("#experiences")}
+              >
                 Experiences
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#projects"
+                onClick={() => scrollIntoView("#projects")}
+              >
                 Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
               </a>
             </li>
           </ul>

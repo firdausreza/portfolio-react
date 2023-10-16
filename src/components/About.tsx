@@ -2,9 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <section className="container-md py-3 py-md-5" id="About">
-      <h2 className="fw-bold text-start text-sky mb-3">About</h2>
-      <p className="text-start">
+    <section className="container-md py-3 py-md-5" id="about">
+      <h2 data-aos="fade-up" className="fw-bold text-start text-sky mb-3">
+        About
+      </h2>
+      <p data-aos="fade-up" className="text-start mb-0">
         Hi! My name is Reza, people also call me Ali. I live in Indonesia and I
         graduated from Bachelor Degree of Informatics at Islamic University of
         Indonesia. I remember when I became interested in programming and

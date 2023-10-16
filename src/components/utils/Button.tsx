@@ -59,7 +59,11 @@ function Button(props: ButtonProps) {
     if (props.withIcons) {
       if (props.reversedIcon) {
         return (
-          <button className={props.customClass} type="button">
+          <button
+            data-aos="fade-up"
+            className={props.customClass}
+            type="button"
+          >
             <span className="me-1">
               <i className={props.iconClass}></i>
             </span>
@@ -68,7 +72,11 @@ function Button(props: ButtonProps) {
         );
       } else {
         return (
-          <button className={props.customClass} type="button">
+          <button
+            data-aos="fade-up"
+            className={props.customClass}
+            type="button"
+          >
             {props.text}
             <span className="ms-1">
               <i className={props.iconClass}></i>
@@ -78,7 +86,7 @@ function Button(props: ButtonProps) {
       }
     } else {
       return (
-        <button className={props.customClass} type="button">
+        <button data-aos="fade-up" className={props.customClass} type="button">
           {props.text}
         </button>
       );

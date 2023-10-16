@@ -7,6 +7,13 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
   color: #0c4a6e;
 }
 
+div.card div.card-body a.card-subtitle {
+  color: #0369a1;
+}
+div.card div.card-body a.card-subtitle:hover {
+  color: #0c4a6e;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
