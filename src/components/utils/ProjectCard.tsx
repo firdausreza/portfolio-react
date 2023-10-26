@@ -37,6 +37,7 @@ function ProjectCard(props: Props) {
           href={props.project.linkHref}
           target="_blank"
           className="card-title d-flex align-items-center link-underline link-underline-opacity-0 text-start fs-5 text-sky mb-1"
+          rel="noreferrer"
         >
           {props.project.title}
           <span>

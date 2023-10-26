@@ -1,5 +1,5 @@
 import React from "react";
-import imgProfile from "../assets/img/coder.png";
+import imgProfile from "../assets/img/profile.jpg";
 
 import Button from "./utils/Button";
 

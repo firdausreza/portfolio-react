@@ -26,6 +26,7 @@ function About() {
             href="https://jala.tech/"
             target="_blank"
             className="link-underline link-underline-opacity-0"
+            rel="noreferrer"
           >
             Jala Tech
           </a>
@@ -42,6 +43,7 @@ function About() {
             href="https://gramedia.com/"
             target="_blank"
             className="link-underline link-underline-opacity-0"
+            rel="noreferrer"
           >
             Kompas Gramedia
           </a>

@@ -21,6 +21,7 @@ function Button(props: ButtonProps) {
             href={props.link}
             target={props.newTab ? "_blank" : "_self"}
             role="button"
+            rel="noreferrer"
           >
             <span className="me-1">
               <i className={props.iconClass}></i>
@@ -35,6 +36,7 @@ function Button(props: ButtonProps) {
             href={props.link}
             target={props.newTab ? "_blank" : "_self"}
             role="button"
+            rel="noreferrer"
           >
             {props.text}
             <span className="ms-1">
@@ -50,6 +52,7 @@ function Button(props: ButtonProps) {
           href={props.link}
           target={props.newTab ? "_blank" : "_self"}
           role="button"
+          rel="noreferrer"
         >
           {props.text}
         </a>

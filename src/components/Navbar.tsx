@@ -78,7 +78,7 @@ function Navbar() {
               <a
                 className="nav-link"
                 href="#projects"
-                onClick={() => scrollIntoView("#projects")}
+                onClick={() => scrollIntoView("projects")}
               >
                 Projects
               </a>
