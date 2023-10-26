@@ -11,6 +11,7 @@ function Footer() {
           href="https://github.com/firdausreza"
           target="_blank"
           className="text-sky"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} size="xl" />
         </a>
@@ -18,6 +19,7 @@ function Footer() {
           href="https://www.linkedin.com/in/rezafirdaus080/"
           target="_blank"
           className="text-sky"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
         </a>
@@ -25,6 +27,7 @@ function Footer() {
           href="mailto:mhmmdrezalif@gmail.com"
           target="_blank"
           className="text-sky"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faEnvelope} size="xl" />
         </a>

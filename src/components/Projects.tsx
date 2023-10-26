@@ -49,8 +49,8 @@ function Projects() {
 
   const projectList = projects.map((project, index) => {
     return (
-      <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-        <ProjectCard project={project} key={index} />
+      <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={index}>
+        <ProjectCard project={project} />
       </div>
     );
   });
