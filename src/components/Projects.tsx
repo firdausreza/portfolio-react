@@ -30,14 +30,14 @@ function Projects() {
       title: "MyAnimeList Clone",
       category: "Front end development",
       tools: ["Vue", "TailwindCSS", "Nuxt 3", "MAL API"],
-      linkHref: "https://firdausreza-pokepedia.vercel.app/pokedex",
+      linkHref: "https://mal-clone-firdausreza.vercel.app",
       imgSrc: mal,
     },
     {
       title: "Hingga Tua",
       category: "Front end development",
       tools: ["HTML", "TailwindCSS", "Vanilla JS"],
-      linkHref: "https://firdausreza-pokepedia.vercel.app/pokedex",
+      linkHref: "https://hinggatua.com",
       imgSrc: hinggatua,
     },
     {
@@ -57,8 +57,8 @@ function Projects() {
     {
       title: "Gramedia",
       category: "Front end development",
-      tools: ["Angular", "TypeScript", "Less", "Rest API"],
-      linkHref: "https://qitadev.com/dikadoin-dong/",
+      tools: ["Angular", "TypeScript", "Less"],
+      linkHref: "https://gramedia.com",
       imgSrc: gramedia,
     },
   ]);
