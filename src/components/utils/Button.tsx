@@ -22,6 +22,7 @@ function Button(props: ButtonProps) {
             target={props.newTab ? "_blank" : "_self"}
             role="button"
             rel="noreferrer"
+            data-aos="fade-up"
           >
             <span className="me-1">
               <i className={props.iconClass}></i>
@@ -37,6 +38,7 @@ function Button(props: ButtonProps) {
             target={props.newTab ? "_blank" : "_self"}
             role="button"
             rel="noreferrer"
+            data-aos="fade-up"
           >
             {props.text}
             <span className="ms-1">
@@ -53,6 +55,7 @@ function Button(props: ButtonProps) {
           target={props.newTab ? "_blank" : "_self"}
           role="button"
           rel="noreferrer"
+          data-aos="fade-up"
         >
           {props.text}
         </a>
