@@ -25,14 +25,16 @@ function Profile() {
             Front End Developer
           </h2>
           <h3 data-aos="fade-left" className="fs-6 mb-3">
-            Web development enthusiast, especially in front end development.
-            Always love to learn new things.
+            Web development enthusiast, especially in front end development. Always love to learn
+            new things.
           </h3>
           <Button
             text="Download Resume"
             withIcons={false}
             customClass="btn btn-sm btn-sky text-white"
-            isLink={false}
+            isLink={true}
+            link="https://drive.google.com/file/d/1UxynAUUgE2PMoo5PYgwuEq0QA0R5EFuC/view?usp=sharing"
+            newTab={true}
           />
         </div>
       </div>
