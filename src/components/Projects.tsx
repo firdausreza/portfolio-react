@@ -1,47 +1,63 @@
 import React, { useState } from "react";
 
-import dikadoin from "../assets/img/Dikadoin.png";
-import gramedia from "../assets/img/Gramedia.png";
-import jala from "../assets/img/Jala.png";
-import pokepedia from "../assets/img/PokePedia.png";
-import rayasdjanur from "../assets/img/RA Yasdjanur.png";
+import gramedia from "../assets/img/gramedia.png";
+import jala from "../assets/img/jala.png";
+import pokepedia from "../assets/img/pokepedia.png";
+import rayasdjanur from "../assets/img/rayasdjanur.png";
+import glance from "../assets/img/glance.png";
+import hinggatua from "../assets/img/hinggatua.png";
+import mal from "../assets/img/mal.png";
 
 import ProjectCard from "./utils/ProjectCard";
 
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      title: "Dikadoin.dong",
-      category: "Front end development",
-      tools: ["React", "Tailwindcss", "Gatsby"],
-      linkHref: "https://qitadev.com/dikadoin-dong/",
-      imgSrc: dikadoin,
-    },
-    {
       title: "RA Yasdjanur",
       category: "Front end development",
-      tools: ["Vue", "Tailwindcss", "Nuxt"],
+      tools: ["Vue", "TailwindCSS", "Nuxt 2"],
       linkHref: "https://qitadev.com/ra-yasdjanur/",
       imgSrc: rayasdjanur,
     },
     {
       title: "PokePedia",
       category: "Front end development",
-      tools: ["Vue", "Tailwindcss", "GraphQL", "Apollo", "PokeAPI"],
+      tools: ["Vue", "TailwindCSS", "GraphQL", "Apollo", "PokeAPI"],
       linkHref: "https://firdausreza-pokepedia.vercel.app/pokedex",
       imgSrc: pokepedia,
     },
     {
+      title: "MyAnimeList Clone",
+      category: "Front end development",
+      tools: ["Vue", "TailwindCSS", "Nuxt 3", "MAL API"],
+      linkHref: "https://firdausreza-pokepedia.vercel.app/pokedex",
+      imgSrc: mal,
+    },
+    {
+      title: "Hingga Tua",
+      category: "Front end development",
+      tools: ["HTML", "TailwindCSS", "Vanilla JS"],
+      linkHref: "https://firdausreza-pokepedia.vercel.app/pokedex",
+      imgSrc: hinggatua,
+    },
+    {
       title: "Jala Tech",
       category: "Front end development",
-      tools: ["Vue", "Sass", "Laravel"],
+      tools: ["Vue", "Sass", "Laravel", "Bootstrap 3"],
       linkHref: "https://jala.tech",
       imgSrc: jala,
     },
     {
+      title: "Glance.sg",
+      category: "Front end development",
+      tools: ["Vue", "Laravel", "Inertia", "TailwindCSS"],
+      linkHref: "https://glance.sg",
+      imgSrc: glance,
+    },
+    {
       title: "Gramedia",
       category: "Front end development",
-      tools: ["Angular", "TypeScript", "Less"],
+      tools: ["Angular", "TypeScript", "Less", "Rest API"],
       linkHref: "https://qitadev.com/dikadoin-dong/",
       imgSrc: gramedia,
     },
