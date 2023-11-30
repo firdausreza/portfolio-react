@@ -33,7 +33,7 @@ function Profile() {
             withIcons={false}
             customClass="btn btn-sm btn-sky text-white"
             isLink={true}
-            link="https://drive.google.com/file/d/1UxynAUUgE2PMoo5PYgwuEq0QA0R5EFuC/view?usp=sharing"
+            link="https://drive.google.com/file/d/1pOSjZ-z7NwB4jTNf-IqbeMJ7jpO_BoK-/view?usp=sharing"
             newTab={true}
           />
         </div>
