@@ -36,7 +36,7 @@ function Experiences() {
       title: "Product Engineer",
       company: "Jala Tech",
       companyLink: "https://jala.tech",
-      period: "Sep 2022 - Jun 2023",
+      period: "Sep 2021 - Jun 2022",
       points: [
         "Built user interfaces using vue and integrating the back end data with Laravel.",
         "Contributed in development of Telegram Bot for Jala Tech to support local shrimp farmers.",
