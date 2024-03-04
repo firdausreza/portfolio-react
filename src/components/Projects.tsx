@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
-import gramedia from "../assets/img/gramedia.png";
-import jala from "../assets/img/jala.png";
-import pokepedia from "../assets/img/pokepedia.png";
-import rayasdjanur from "../assets/img/rayasdjanur.png";
-import glance from "../assets/img/glance.png";
-import hinggatua from "../assets/img/hinggatua.png";
-import mal from "../assets/img/mal.png";
+import gramedia from "../assets/img/gramedia.webp";
+import jala from "../assets/img/jala.webp";
+import pokepedia from "../assets/img/pokepedia.webp";
+import rayasdjanur from "../assets/img/rayasdjanur.webp";
+import glance from "../assets/img/glance.webp";
+import hinggatua from "../assets/img/hinggatua.webp";
+import mal from "../assets/img/mal.webp";
 
 import ProjectCard from "./utils/ProjectCard";
 
 function Projects() {
-  const [projects, setProjects] = useState([
+  const projects = [
     {
       title: "RA Yasdjanur",
       category: "Front end development",
@@ -61,7 +61,7 @@ function Projects() {
       linkHref: "https://gramedia.com",
       imgSrc: gramedia,
     },
-  ]);
+  ];
 
   const projectList = projects.map((project, index) => {
     return (
