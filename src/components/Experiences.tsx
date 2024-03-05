@@ -10,13 +10,18 @@ function Experiences() {
 			companyLink: "https://gramedia.com",
 			period: "Jan 2023 - Dec 2023",
 			description: `
-				Joined for full time position, working in a Retail, Bookstores & Education company. Maintained Gramedia Web Apps(gramedia.com). 
-				Built and developed user interfaces using Angular and Typescript. Integrating backend data with Gramedia’s REST API. 
-				Implemented Google Analytics 4 using Google Tag Manager, also implemented Meta and TikTok Pixel Tracker for Gramedia 
-				Web Apps. Work and collaborated with other developers within agile/scrum environment Experienced
+				Joined for full time position, working in a Retail, Bookstores & Education company. 
+				Maintained Gramedia Web Apps (gramedia.com). Built and developed user interfaces using Angular 
+				and Typescript. Integrating backend data with Gramedia’s REST API. Implemented Google Analytics 4 
+				using Google Tag Manager, also implemented Meta and TikTok Pixel Tracker for Gramedia Web Apps. 
+				Collaborated with other developers  to develop features and conduct code review. Participated in 
+				UI/UX Design review. Work in agile environment.
 		  	`,
 			points: [
-				"Assisted SEO team to conduct Google Analytics 4 migration, implemented the new version of Google Analytics 4 using Google Tag Manager to improve the analytics data readability and identify customer’s behavior on the Google Analytics Platform. Also implemented Meta Pixel Tracker and TikTok Pixel Tracker.",
+				`Assisted SEO team to conduct Google Analytics 4 migration, implemented the new version of 
+				Google Analytics 4 using Google Tag Manager to improve the analytics data readability and 
+				identify customer’s behavior on the Google Analytics Platform. Also implemented Meta Pixel 
+				Tracker and TikTok Pixel Tracker.`,
 				"Developed new Cart and Checkout features for Gramedia Web Apps, aims to improve user experience.",
 				"Mostly did bugfixes related to user interfaces in Gramedia’s FE components.",
 			],
@@ -45,10 +50,10 @@ function Experiences() {
 			companyLink: "https://jala.tech",
 			period: "Sep 2022 - Jun 2023",
 			description: `
-				Joined as an intern for part time position, working in a agricultural company. Maintained Jala Web Apps (app.jala.tech). 
-				Built and developed user interfaces using Vue JS and collaborate with Backend Developer to integrate backend data using 
-				Laravel framework. Mostly doing user interface bugfixes and contributed in features development. Work in agile/scrum 
-				environment.
+				Joined as an intern for part time position, working in a aquacultural company. Maintained Jala Web Apps 
+				(app.jala.tech). Built and developed user interfaces using Vue and collaborate with Backend Developer 
+				to integrate backend data using Laravel framework. Mostly doing user interface bugfixes and contributed 
+				in features development. Participated in UI/UX Design review. Work in agile environment.
 			`,
 			points: [
 				"Developed Telegram Bot for Jala Tech to support local shrimp farmers.",
